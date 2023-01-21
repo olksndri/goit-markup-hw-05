@@ -62,16 +62,6 @@
           </h1>
           <!--Кнопка-->
           <button data-modal-open class="hero-btn">Order Service</button>
-
-          <div data-modal class="backdrop is-hidden">
-            <div class="modal">
-              <button data-modal-close class="close-modal">
-                <svg class="icon icon-close">
-                  <use href="./images/icons.svg#icon-close"></use>
-                </svg>
-              </button>
-            </div>
-          </div>
         </div>
       </section>
       <!--Переваги компанії-->
@@ -417,7 +407,15 @@
         </div>
       </div>
     </footer>
-
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close class="close-modal">
+          <svg class="icon icon-close">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
